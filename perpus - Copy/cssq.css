@@ -1,0 +1,40 @@
+header {
+    background-color: rgb(60, 58, 58);
+    color: aliceblue;
+    text-align: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 750;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0 0 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 35px;
+    list-style: 60px;
+}
+img {
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+div a img {
+    padding-bottom: 20px;
+    padding-right: 30px;
+    background: linear-gradient(
+        rgba(0,0,0,0.7)
+        rgba(0,0,0,0.7)
+    ),
+    url(url(https://images.unsplash.com/photo-1614030424754-24d0eebd46b2));
+}
